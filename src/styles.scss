@@ -120,7 +120,7 @@ blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: '';
+  content: "";
   content: none;
 }
 table {
@@ -136,7 +136,7 @@ table {
 
 html {
   font-size: 62.5%;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: 500;
 }
 
@@ -150,6 +150,40 @@ h2 {
 
 h4 {
   font-size: 1.4rem;
+}
+
+.homepage {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: 75px;
+  margin: 75px;
+  background-color: #f8f8ff;
+}
+
+.navlinks {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.navlinks a {
+  color: black;
+  font-size: 2rem;
+  text-decoration: none;
+}
+
+.homepage h2 {
+  font-size: 4rem;
+  color: black;
+}
+
+.homepage a {
+  font-size: 3rem;
+  color: black;
+}
+
+.enter {
+  margin-top: 30px;
 }
 
 img {
@@ -229,8 +263,8 @@ img {
 .coin__title {
   display: block;
   margin-left: 8px;
-    min-width: 160px;
-text-align: left;
+  min-width: 160px;
+  text-align: left;
 }
 
 .coin__symbol {
@@ -247,7 +281,23 @@ text-align: left;
   background-color: #313843;
 
   .navbar {
-    background-color: #1F2022;
+    background-color: #1f2022;
     border: none;
+  }
+
+  .homepage {
+    background-color: #1f2022;
+  }
+
+  .homepage a {
+    color: #fff;
+  }
+
+  .homepage h2 {
+    color: #fff;
+  }
+
+  .navlinks a {
+    color: #fff;
   }
 }
